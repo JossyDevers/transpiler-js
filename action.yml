@@ -1,4 +1,4 @@
-name: 'Traspiler-JS Action'
+name: 'Transpiler-JS Action'
 description: 'Transpile javascript code with Babel 7 to make it cross-browser compatible'
 
 inputs:

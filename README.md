@@ -1,4 +1,4 @@
-# Traspiler-JS Action
+# Transpiler-JS Action
 
 ## Package Managers
 
@@ -29,7 +29,7 @@ jobs:
           ref: ${{ github.ref }}
           
       # Job for transpiler the code
-      - name: ESM2015 COMPILATION
+      - name: 'Transpiler-JS Action'
         uses: jossydevers/transpiler-js@v1.0.0
         with:
           # If the typename is specified, the transpilation result file will be as follows path/filename.{tipename}.js
