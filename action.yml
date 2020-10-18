@@ -1,0 +1,21 @@
+name: 'Traspiler-JS Action'
+description: 'Transpile javascript code with Babel 7 to make it cross-browser compatible'
+
+inputs:
+  typename:
+    description: "The typename sets the transpilation result file as follows: path/filename.{typename}.js (By default the value is 'release')"
+    required: false
+  directory:
+    description: "Directory in which to start searching for files to transpile (By default the entire repository is transpiled)"
+    required: false
+  output:
+    description: "Directory where the transpilation result will be stored (By default each transpiled file is saved in the folder next to the original file)"
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: "box"
+  color: "blue"
