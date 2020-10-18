@@ -1,5 +1,13 @@
 # Traspiler-JS Action
 
+## Package Managers
+
+## License
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/JossyDevers/transpiler-js/blob/master/LICENSE) 
+
+## Version
+[![GitHub Release](https://img.shields.io/github/v/release/jossydevers/transpiler-js)]()
+
 Github action to transpile javascript code to make it cross-browser compatible, using [@babel/cli](https://babeljs.io/docs/en/babel-cli), [@babel/core](https://www.npmjs.com/package/@babel/core) and [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) packages.
 
 ### Usage
