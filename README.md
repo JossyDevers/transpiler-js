@@ -3,7 +3,7 @@
 Github action to transpile javascript code to make it cross-browser compatible, using [@babel/cli](https://babeljs.io/docs/en/babel-cli), [@babel/core](https://www.npmjs.com/package/@babel/core) and [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env) packages.
 
 ### Usage
-Here the target branch is `foo`. You need to checkout your repository so the ES2015 Trasnpiler job can access it. Then, you can auto-commit the files to the repository if desired.
+Here the target branch is `master`. You need to checkout your repository so the ES2015 Trasnpiler job can access it. Then, you can auto-commit the files to the repository if desired.
 
 ```yaml
 name: Transpiler-JS Workflow
