@@ -34,17 +34,17 @@ jobs:
         with:
           # If the typename is specified, the transpilation result file will be as follows path/filename.{tipename}.js
           # By default the value is 'release'
-          typename: 'release' (OPTIONAL)
+          typename: 'release' # (OPTIONAL)
           # Directory in which to start searching for files to transpile
           # By default the entire repository is transpiled
-          directory: 'src/' (OPTIONAL)
+          directory: 'src/' # (OPTIONAL)
           # Directory where the transpilation result will be stored
           # By default each transpiled file is saved in the folder next to the original file
-          output: 'transpile/' (OPTIONAL)
+          output: 'transpile/' # (OPTIONAL)
           
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Github Action : Code Transpiled
+          commit_message: 'Github Action : Code Transpiled'
           branch: ${{ github.ref }}
 ```
